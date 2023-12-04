@@ -534,13 +534,19 @@ input[type=submit]:hover {
   justify-content: flex-start;
 }
 .lottie{
+  margin-top: 10%;
   margin-left: 50%;
-  width: 30%;
+  width: 50%;
+}
+.navbarpink  li{
+  margin-right: 6%;
+  margin-left: 3%;
+  margin-top: 3%;
 }
 .navbarpink  ul li a{
   text-decoration: none;
   color: rgb(255, 0, 85);
-  font-size: 12px;
+  font-size: 18px;
   font-family: 'Playfair Display', serif;
   }
   .navbarpink  ul li a:hover{
@@ -556,7 +562,7 @@ input[type=submit]:hover {
       margin-left: 18%;
      }
      .ameerahname h2{
-      font-size: 79px;
+      font-size: 85px;
       font-weight: 100;
       text-shadow: 9px 6px #c5101027;
       font-family: 'Playfair Display', serif;
@@ -580,7 +586,7 @@ input[type=submit]:hover {
      }
 
  .homecontent2{
-  margin-top: 20%;
+  margin-top: 15%;
   width: 45%;
   line-height: 35px;
   display: flex;
@@ -626,8 +632,92 @@ input[type=submit]:hover {
 
 
 
-@media screen and (max-width: 280px) {
-
+@media screen and (max-width: 380px) {
+  .navbarpink ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .lottie{
+    margin-top: 10%;
+    margin-left: 50%;
+    width: 50%;
+  }
+  .navbarpink  li{
+    margin-right: 6%;
+    margin-left: 3%;
+    margin-top: 3%;
+  }
+  .navbarpink  ul li a{
+    text-decoration: none;
+    color: rgb(255, 0, 85);
+    font-size: 11px;
+    font-family: 'Playfair Display', serif;
+    }
+    .navbarpink  ul li a:hover{
+      background-color: brown;
+      color: wheat;
+      padding: 65px 18px 25px 15px;
+      }
+  
+      .ameerahname{
+        display: block;
+        justify-content:flex-start;
+        margin-top: 35%;
+        margin-left: 10%;
+       }
+       .ameerahname h2{
+        font-size: 65px;
+        font-weight: 100;
+        text-shadow: 9px 6px #c5101027;
+        font-family: 'Playfair Display', serif;
+       }
+       .ameerahname p{
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        margin-left: 10%;
+        text-shadow: 9px 6px #c510102f;
+       }
+       .pinkhome{
+        width: 100%;
+        height: 90vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        top: 0px;
+        z-index: -1;
+       }
+  
+   .homecontent2{
+    margin-top: 25%;
+    width: 45%;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    margin-left: 49%;
+   }
+   .homecontent2 h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    font-size: 13px;
+   }
+   .homebtn{
+    display: flex;
+    justify-content: center;
+    margin-left: 18%;
+    margin-top: 3%;
+   }
+   .homebtn button{
+    padding: 10px 5px 15px 5px ;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+    /* border-radius: 30px; */
+    background-color:rgba(251, 97, 179, 0.64) ;
+    border: none;
+    border-radius: 10px;
+   }
 }
 
 

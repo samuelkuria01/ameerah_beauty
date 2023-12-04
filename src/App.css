@@ -546,7 +546,7 @@ input[type=submit]:hover {
 .navbarpink  ul li a{
   text-decoration: none;
   color: rgb(255, 0, 85);
-  font-size: 18px;
+  font-size: 12px;
   font-family: 'Playfair Display', serif;
   }
   .navbarpink  ul li a:hover{
@@ -562,7 +562,7 @@ input[type=submit]:hover {
       margin-left: 18%;
      }
      .ameerahname h2{
-      font-size: 85px;
+      font-size: 60px;
       font-weight: 100;
       text-shadow: 9px 6px #c5101027;
       font-family: 'Playfair Display', serif;
@@ -641,7 +641,7 @@ input[type=submit]:hover {
   .lottie{
     margin-top: 10%;
     margin-left: 50%;
-    width: 50%;
+    width: 45%;
   }
   .navbarpink  li{
     margin-right: 6%;
@@ -651,7 +651,7 @@ input[type=submit]:hover {
   .navbarpink  ul li a{
     text-decoration: none;
     color: rgb(255, 0, 85);
-    font-size: 11px;
+    font-size: 10px;
     font-family: 'Playfair Display', serif;
     }
     .navbarpink  ul li a:hover{
@@ -667,7 +667,7 @@ input[type=submit]:hover {
         margin-left: 10%;
        }
        .ameerahname h2{
-        font-size: 65px;
+        font-size: 55px;
         font-weight: 100;
         text-shadow: 9px 6px #c5101027;
         font-family: 'Playfair Display', serif;
@@ -701,7 +701,7 @@ input[type=submit]:hover {
    .homecontent2 h2{
     font-family: 'Playfair Display', serif;
     font-weight: 100;
-    font-size: 13px;
+    font-size: 10px;
    }
    .homebtn{
     display: flex;
@@ -710,8 +710,8 @@ input[type=submit]:hover {
     margin-top: 3%;
    }
    .homebtn button{
-    padding: 10px 5px 15px 5px ;
-    font-size: 15px;
+    padding: 8px 6px 8px 6px ;
+    font-size: 10px;
     font-family: 'Playfair Display', serif;
     /* border-radius: 30px; */
     background-color:rgba(251, 97, 179, 0.64) ;

@@ -15,7 +15,7 @@ export default function Home() {
             <span><p>ORGANICS</p></span>
             </h2>
 
-            <div>
+            <div className='lottie'>
               <Lottie animationData={animationData} />
             </div>
           </div>

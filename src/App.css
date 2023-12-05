@@ -667,7 +667,7 @@ input[type=submit]:hover {
         margin-left: 10%;
        }
        .ameerahname h2{
-        font-size: 55px;
+        font-size: 50px;
         font-weight: 100;
         text-shadow: 9px 6px #c5101027;
         font-family: 'Playfair Display', serif;
@@ -680,7 +680,7 @@ input[type=submit]:hover {
        }
        .pinkhome{
         width: 100%;
-        height: 90vh;
+        height: 80vh;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

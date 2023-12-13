@@ -516,6 +516,54 @@ input[type=submit]:hover {
   margin-top: -82%;
   width: 30%;
 }
+.prodhead{
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+.productcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardcont {
+  margin-top: 3%;
+  margin-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cardyyo {
+  flex-basis: calc(50% - 20px); /* 33.33% width for 3 columns, considering some margin */
+  margin-bottom: 20px; /* Adjust as needed */
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 3%;
+  display: flex;
+  gap:2rem;
+}
+
+
+.cardyyo img {
+  max-width: 100%;
+  height: auto;
+  
+}
+.qasil{
+  width: 35%;
+}
+
+.qasilcontent{
+  display: flex;
+  gap: 1rem;
+}
+.qasilbtn{
+  display: flex;
+  gap: 2rem;
+}
+
+
 
 
 
@@ -528,6 +576,19 @@ input[type=submit]:hover {
 
 
 @media screen and (max-width: 600px) {
+  .cardcont p{
+    font-size: 8px;
+  }
+  .qasil{
+    width: 70%;
+  }
+  .cardcont{
+    margin-top: 10%;
+  }
+  .cardyyo {
+    margin-top: 3%;
+    flex-basis: calc(100% - 20px); /* 50% width for 2 columns on small screens */
+  }
 .navbarpink ul{
   list-style: none;
   display: flex;
@@ -660,6 +721,63 @@ padding: 50px 10px 50px 10px;
   font-size: 20px;
   font-family: 'Playfair Display', serif;
 }
+.contheader h2{
+  margin-bottom: 5%;
+  margin-left: 2%;
+  margin-left: 2%;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+}
+input[type=text],[type=number], select,textarea{
+  width: 90%;
+  padding: 5px;
+  border: 1px solid salmon;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  margin-left: 2%;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: rgb(255, 152, 169);
+  color: white;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 2%;
+}
+textarea{
+  height: 100px;
+}
+
+
+input[type=submit]:hover {
+  background-color: rgb(251, 66, 97);
+}
+
+.firstesoteric label {
+  font-size: 12px;
+  margin-left: 2%;
+  margin-bottom: 5px; /* Optional: Add some space between label and input */
+}
+.secondesoteric label {
+  font-size: 12px;
+  margin-left: 2%;
+  margin-bottom: 5px; /* Optional: Add some space between label and input */
+}
+.contactvector{
+  width: 100%;
+  height: 30vh;
+}
+
+.contactus{
+  display: block;
+  gap: 13rem;
+  justify-content: center;
+}
+
 
 }
 

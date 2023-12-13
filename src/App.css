@@ -560,7 +560,7 @@ input[type=submit]:hover {
 }
 .qasilbtn{
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 
@@ -580,7 +580,7 @@ input[type=submit]:hover {
     font-size: 8px;
   }
   .qasil{
-    width: 70%;
+    width: 45%;
   }
   .cardcont{
     margin-top: 10%;

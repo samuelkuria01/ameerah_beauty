@@ -517,7 +517,6 @@ input[type=submit]:hover {
   width: 30%;
 }
 .prodhead{
-  margin-bottom: 5%;
   margin-top: 3%;
 }
 .productcontainer {
@@ -560,7 +559,8 @@ input[type=submit]:hover {
 }
 .qasilbtn{
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
+  font-size: 25px;
 }
 
 

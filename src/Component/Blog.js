@@ -104,7 +104,7 @@ function Blog() {
 
       <div className='blogdata'>
         <div className='blogstory'>
-        <h2>Benefits of papaya seeds </h2>
+        <h2>Benefits of Moringa Powder</h2>
           <h3>Brightens and Lightens Skin Complexion</h3>
           <p>. If your skin is feeling a little dull and lifeless, perk it up with papaya seed oil. Vitamin C and 
             carotene are contained within papaya seed oil.</p>
@@ -117,7 +117,7 @@ function Blog() {
         </div>
 
         <div>
-          <img className='papayaimg3' alt='blogim' src='https://c.ndtvimg.com/0ds86cj8_neem-twigs_625x300_09_August_18.jpg?downsize=320:197'></img>
+          <img className='papayaimg3' alt='blogim' src='https://hips.hearstapps.com/hmg-prod/images/nutritional-supplement-moringa-powder-on-rustic-royalty-free-image-1659133952.jpg'></img>
         </div>
       </div>
 

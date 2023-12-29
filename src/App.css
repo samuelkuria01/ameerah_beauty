@@ -588,7 +588,7 @@ input[type=submit]:hover {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .papayaimg2{
     width: 80%;
     height: 18vh;
@@ -905,6 +905,116 @@ font-family: 'Playfair Display', serif;
   font-size: 26px;
 }
 
+.foottwoimg{
+  margin-top: -82%;
+  width: 0%;
+}
+.linkup{
+  display: block;
+  gap: 1rem;
+}
+.linkupresou{
+  display: flex;
+  gap: 1rem;
+}
+.firstfootcont{
+  display: block;
+  gap: 1rem;
+}
+.footone{
+  display: block;
+}
+.footoneimg{
+ width: 90%;
+}
+.linkupresou{
+  display: flex;
+  gap: 10rem;
+  margin-left: 4%;
+}
+.linkupcontainer{
+  display: block;
+  gap: 2rem;
+}
+.linkup h2{
+  margin-top: 15%;
+  font-size: 13px;
+  font-family: 'Playfair Display', serif;
+}
+.linkup p a{
+  font-size: 9px;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  color: black;
+  line-height: 32px;
+}
+
+.inputfooter[type=text], select,textarea{
+  width: 50%;
+  padding: 12px;
+  border: 1px solid salmon;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.inputfooter[type=submit] {
+  background-color: rgb(255, 152, 169);
+  color: white;
+  padding: 4px 7px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contfoot textarea{
+  height: 70px;
+  width: 50%;
+}
+
+.firstquartz{
+  display: block;
+  /* justify-content: center; */
+  gap: 0rem;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.firstimg img{
+  width: 80%;
+ }
+ .secondimg{
+  /* margin-right: 25%; */
+  width: 35%;
+  margin-left: 4%;
+  margin-top: 2%;
+}
+.secondquartz{
+  display: block;
+  /* justify-content: center; */
+  margin-top: 3%;
+  margin-bottom: 18%;
+
+  /* gap: 7rem; */
+}
+.aboutstory2 h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 100;
+  font-size: 10px;
+  margin-left: 8%;
+  margin-bottom:8%;
+  text-decoration: underline;
+  text-underline-offset: 12px;
+
+}
+.aboutstory2 p{
+  font-weight: 100;
+  font-family: 'Playfair Display', serif;
+  width: 80%;
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 8%;
+} 
+
+
 
 }
 
@@ -1008,10 +1118,18 @@ line-height: 28px;
 font-family: 'Playfair Display', serif;
 }
 .headfooter h2{
+  margin-left: 3%;
   font-size: 49px;
   font-family: 'Playfair Display', serif;
 }
+.contfoot{
+  margin-left: 3%;
+}
+.contfoot p{
+  margin-left: 3%;
+}
 .headfooter h3{
+  margin-left: 3%;
   font-family: 'Playfair Display', serif;
   font-size: 22px;
 }

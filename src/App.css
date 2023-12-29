@@ -873,6 +873,39 @@ font-size: 15px;
 }
 
 
+
+.footercontainer{
+  background-color: rgb(251, 204, 228);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4%;
+  padding-bottom: 0%;
+  margin-top: 5%;
+}
+.firstfootcont{
+  display: flex;
+  gap: 15rem;
+}
+
+.footone p{
+width: 50%;
+margin-left: 30%;
+font-size: 20px;
+color: black;
+line-height: 28px;
+font-family: 'Playfair Display', serif;
+}
+.headfooter h2{
+  font-size: 69px;
+  font-family: 'Playfair Display', serif;
+}
+.headfooter h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+}
+
+
 }
 
 
@@ -892,6 +925,96 @@ font-size: 15px;
 
 
 @media screen and (max-width: 450px) {
+  .foottwoimg{
+    margin-top: -82%;
+    width: 0%;
+  }
+  .linkup{
+    display: block;
+    gap: 1rem;
+  }
+  .linkupresou{
+    display: block;
+    gap: 1rem;
+  }
+  .linkupcontainer{
+    display: block;
+    gap: 2rem;
+  }
+  .linkup h2{
+    margin-top: 15%;
+    font-size: 13px;
+    font-family: 'Playfair Display', serif;
+  }
+  .linkup p a{
+    font-size: 9px;
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: black;
+    line-height: 32px;
+  }
+  .inputfooter[type=text], select,textarea{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid salmon;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  .inputfooter[type=submit] {
+    background-color: rgb(255, 152, 169);
+    color: white;
+    padding: 4px 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .contfoot textarea{
+    height: 70px;
+    width: 50%;
+  }
+
+.footercontainer{
+  background-color: rgb(251, 204, 228);
+  color: white;
+  /* display: flex; */
+  justify-content: space-around;
+  padding-top: 4%;
+  padding-bottom: 0%;
+  margin-top: 5%;
+}
+.firstfootcont{
+  display: block;
+  gap: 1rem;
+}
+.footone{
+  display: block;
+}
+.footoneimg{
+ width: 90%;
+}
+.linkupresou{
+  display: flex;
+  gap: 10rem;
+  margin-left: 4%;
+}
+.footone p{
+width: 50%;
+margin-left: 50%;
+font-size: 12px;
+color: black;
+line-height: 28px;
+font-family: 'Playfair Display', serif;
+}
+.headfooter h2{
+  font-size: 49px;
+  font-family: 'Playfair Display', serif;
+}
+.headfooter h3{
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+}
   .papayaimg3{
     width: 170%;
     height: 15vh;
@@ -922,14 +1045,14 @@ font-size: 15px;
   .blogstory h3,.blogstory1 h3{
     font-family: 'Playfair Display', serif;
     letter-spacing: 1px;
-    font-size: 10px;
+    font-size: 8px;
     color: rgb(251, 110, 110);
   }
   .blogstory p,.blogstory1 p{
     font-family: 'Nunito Sans', sans-serif;  letter-spacing: 1px;
     width: 100%;
   margin-bottom: 4%;
-  font-size: 9px;
+  font-size: 8px;
   color: rgb(238, 0, 40);
   /* margin-right: 15%; */
   }
@@ -942,7 +1065,7 @@ font-size: 15px;
   text-decoration: underline;
   text-underline-offset:5px ;
   padding-bottom: 15px;
-  font-size: 11px;
+  font-size: 9px;
 }
   .blogdata{
     display: flex;
